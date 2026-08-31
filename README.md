@@ -2,6 +2,14 @@
 
 > 全国首个公共采购智能体协同管理平台 — 技术方案与架构设计
 
+## 🔗 官方网站
+
+**[http://www.caiyigaoke.cn/](http://www.caiyigaoke.cn/)** — 彩翼公共采购智能体协同管理平台官方网站
+
+> 微信公众号：**彩翼公共采购智能体协同管理平台** | [公众号文章精选](docs/articles/README.md)
+
+---
+
 **技术栈：** Multi-Agent · LLM+RAG · Function Call · Workflow Orchestration · Knowledge Graph · LangChain · PyTorch · Milvus · Neo4j · 国产算力适配
 
 ---
@@ -447,6 +455,18 @@ graph TB
 | [docs/intellectual-property.md](docs/intellectual-property.md) | 6项软著 + 4项发明专利 + 2项实用新型 + 商标版权详细清单 |
 | [docs/achievements.md](docs/achievements.md) | 应用成效量化数据 + 各智能体效果对比 + 获奖荣誉 |
 | [docs/business-model.md](docs/business-model.md) | SaaS+项目制两大定价体系 + 彩豆资金流转 + 分阶段定价策略 |
+| [docs/articles/README.md](docs/articles/README.md) | 📰 微信公众号文章精选（6篇技术文章整理） |
+
+### 公众号文章精选
+
+| 文章 | 核心主题 |
+|------|---------|
+| [3分钟搞定采购文件合规审查](docs/articles/01-compliance-review-3min.md) | 合规检测智能体功能介绍与应用价值 |
+| [信息化项目专项合规检测标准](docs/articles/02-it-project-special-standard.md) | 增强版上新 — 信息化项目专项深审 |
+| [货物类通用规则合规检测清单](docs/articles/03-goods-general-rules-checklist.md) | 货物类采购文件5大类30+项检测清单 |
+| [广州AI+政府采购，12个智能体](docs/articles/04-guangzhou-ai-procurement-12agents.md) | 平台整体介绍，12个智能体部署情况 |
+| [从需求到文件，合规写进每一个字](docs/articles/05-demand-to-document-compliance.md) | 需求调查→文件编制→合规检测全流程协同 |
+| [CMA证书"一单一库"实时查验](docs/articles/06-cma-certificate-verification.md) | CMA证书真伪/状态/范围实时查验能力 |
 
 ---
 

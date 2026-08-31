@@ -1,0 +1,39 @@
+graph TB
+    subgraph "接入层"
+        A1[Web端]
+        A2[API网关]
+        A3[第三方智能体接入]
+    end
+
+    subgraph "Agent协同层"
+        B1[L1-L4任务路由引擎]
+        B2[文件生成Agent集群]
+        B3[合规审查Agent集群]
+        B4[采购评审Agent集群]
+        B5[合同管理Agent集群]
+        B6[Agent状态同步与消息总线]
+    end
+
+    subgraph "能力层"
+        C1[LLM推理服务]
+        C2[RAG检索增强 Milvus+Neo4j]
+        C3[Function Call调度]
+        C4[Workflow编排引擎]
+        C5[质量评分引擎]
+    end
+
+    subgraph "数据层"
+        D1[六大数据库]
+        D2[可信数据空间 区块链]
+        D3[异构算力调度]
+    end
+
+    A1 --> A2
+    A2 --> B1
+    A3 --> B1
+    B1 --> B2 & B3 & B4 & B5
+    B2 & B3 & B4 & B5 <--> B6
+    B2 & B3 & B4 & B5 --> C1 & C2 & C3 & C4 & C5
+    C2 --> D1
+    C4 --> D2
+    C1 --> D3
